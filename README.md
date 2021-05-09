@@ -1,99 +1,61 @@
-# Netflix-Clone
+# Netflix Clone :
 
-![DemoGif](flixdemo.gif)
+- A complete responsive Netflix clone , where you click on the poster of movies this will show the trailer of that movies from youtube using Imbd movie API .
+  **_Netflix clone _** if I goona click a poster and play trailer you can go ahed and play a trailer .
 
-A Netflix clone I created for the sake of practicing React and Redux. It features design
-patterns recommended by the documentation. Some of the tools used include: <br />
+## DEMO
 
-- Hooks (and custom hooks)
-- React Router
-- Redux Toolkit
-- Context API
-- Responsive web design
-- Cypress end-to-end testing
+- Here you can see i can scroll thruogh like `netflix` and move the mouse cursor for scrolling.
+- `Play trailer` , there a lots of trailer you can see on clicking on the poster over here.
 
-<br />
+## Working:
 
-It is a work in progress, and my first real project with React. Any tips on how to better write the
-code, manage the folder structure, etc would be really appreciated. <br />
+- Actully i get all the Data from the Third Party API, So when you will `refresh` you see the top Poster and the information will automatic change .
 
-The future of this project: <br />
+![Demo-Gif](preview/vid2.gif)
 
-- Integrate it with a Django backend
-- Create an authentication flow
-- Add REST API endpoints for every user-related event, such as adding Netflix profiles
+## Steps:
 
-## Architecture Diagram
+- Get `TMDB API ` key
+- Create `react app`
+- Get all the `MOVIES`
+- Build the `rows`
+- Build the `Banner`
+- Build the Nav `bar`
+- Add trailer `popups`
+- Setup Backend hosting on `Heroku`.
+- Setup Frontend Hosting on `Netlify`.
 
-![CloneFlow](https://user-images.githubusercontent.com/36729591/90905326-08c9c400-e39e-11ea-977c-76212f63b2b6.png)
+### Running on local Machine:
 
-# Getting Started with Create React App
+> Make sure you have the lastest version of NodeJS engine installed on your local Machine.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Clone the repository to your local by pasting the below command in the terminal.
 
-## Available Scripts
+```bash
+    git clone https://github.com/abhishekrawe/Netflix-Clone
+```
 
-In the project directory, you can run:
+- Now, Open the folder in Visual Studio Code (or Text Editor). Then open the terminal and split that terminal into two parts as shown below:
+  ![Terminal-Splitting](preview/start.png)
+- On 1st Terminal, Change the directory to **ui/whiteboard-collab**
 
-### `npm start`
+```bash
+    cd .\netflix-clone\ > cd src
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Then install the required dependencies to run the ReactJS web-application using following commands.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+    npm install
+```
 
-### `npm test`
+- Now, it's time to start the React web-app using the following commands.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+    npm start
+```
 
-### `npm run build`
+- Now, your local server is started and running on port 3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Demo-Gif](preview/vide1.gif)
