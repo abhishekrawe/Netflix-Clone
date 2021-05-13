@@ -12,7 +12,7 @@
 
 - Actully i get all the Data from the Third Party API, So when you will `refresh` you see the top Poster and the information will automatic change .
 
-![Demo-Gif](preview/vid2.gif)
+![Demo-Gif](preview/vid2.png)
 
 ## Steps:
 
@@ -58,4 +58,4 @@
 
 - Now, your local server is started and running on port 3000.
 
-![Demo-Gif](preview/vide1.gif)
+![Demo-Gif](preview/vide1.png)
