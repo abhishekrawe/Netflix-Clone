@@ -12,7 +12,7 @@
 
 - Actully i get all the Data from the Third Party API, So when you will `refresh` you see the top Poster and the information will automatic change .
 
-![Demo-Gif](preview/pic.png)
+
 
 ## Steps:
 
