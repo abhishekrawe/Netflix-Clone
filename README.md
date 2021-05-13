@@ -4,7 +4,7 @@
   **_Netflix clone _** if I goona click a poster and play trailer you can go ahed and play a trailer .
 
 ## DEMO
-
+  ![Demo-Gif](preview/vid2.png)
 - Here you can see i can scroll thruogh like `netflix` and move the mouse cursor for scrolling.
 - `Play trailer` , there a lots of trailer you can see on clicking on the poster over here.
 
@@ -12,7 +12,7 @@
 
 - Actully i get all the Data from the Third Party API, So when you will `refresh` you see the top Poster and the information will automatic change .
 
-![Demo-Gif](preview/vid2.png)
+![Demo-Gif](preview/vid2(3).png)
 
 ## Steps:
 
@@ -26,6 +26,7 @@
 - Setup Backend hosting on `Heroku`.
 - Setup Frontend Hosting on `Netlify`.
 
+![Demo-Gif](preview/vid2(4).png)
 ### Running on local Machine:
 
 > Make sure you have the lastest version of NodeJS engine installed on your local Machine.
