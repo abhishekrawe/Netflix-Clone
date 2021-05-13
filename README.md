@@ -12,7 +12,7 @@
 
 - Actully i get all the Data from the Third Party API, So when you will `refresh` you see the top Poster and the information will automatic change .
 
-![Demo-Gif](preview/vid2(3).png)
+![Demo-Gif](preview/pic.png)
 
 ## Steps:
 
@@ -26,7 +26,7 @@
 - Setup Backend hosting on `Heroku`.
 - Setup Frontend Hosting on `Netlify`.
 
-![Demo-Gif](preview/vid2(4).png)
+![Demo-Gif](preview/movie.png)
 ### Running on local Machine:
 
 > Make sure you have the lastest version of NodeJS engine installed on your local Machine.
